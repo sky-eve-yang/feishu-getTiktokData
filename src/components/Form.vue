@@ -7,7 +7,7 @@
       <span>{{ $t('helpTip') }}</span>
       <span style="height: 16px;width: 16px;margin-left: 12px;">
         <a href="https://jfsq6znqku.feishu.cn/wiki/Mlh2wbTlEiDWsukqcGNc1O7lnBx?from=from_copylink"
-          target="_blank"><span>说明文档</span></a>
+          target="_blank"><span>Explanatory Document</span></a>
       </span>
 
     </div>
