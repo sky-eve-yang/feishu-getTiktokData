@@ -207,10 +207,7 @@ const writeData = async () => {
       continue;
     }
 
-
-
     for (let field of checkedFieldsToMap.value) {
-
       if (field == 'uploader' || field == 'title') {  // up主字段和标题字段，Text 格式
         await table.setCellValue(mappedFieldIds.value[field], recordId, [{ type: 'text', text: totalNoteInfo.basicInfo[field] }])
       } else if (field.endsWith('Count') && field !== 'totalInterCount') {  // xx量字段，Number格式 注：总互动量字段单独处理
